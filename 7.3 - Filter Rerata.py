@@ -4,8 +4,8 @@ from skimage.io import imread  # Mengimpor modul imread dari library skimage.io 
 from skimage.color import rgb2gray  # Mengimpor modul rgb2gray dari library skimage.color untuk mengkonversi citra RGB menjadi grayscale.
 import numpy as np  # Mengimpor modul numpy untuk operasi array dan manipulasi data numerik.
 
-citra1 = imread(fname="Image/gedung.tif")  # Membaca citra dari file "mobil.tif" dan menyimpannya dalam variabel citra1.
-citra2 = imread(fname="Image/goldhill.tif")  # Membaca citra dari file "boneka2.tif" dan menyimpannya dalam variabel citra2.
+citra1 = imread(fname="Image/gedung.tif")  # Membaca citra dari file "gedung.tif" dan menyimpannya dalam variabel citra1.
+citra2 = imread(fname="Image/goldhill.tif")  # Membaca citra dari file "godlhill.tif" dan menyimpannya dalam variabel citra2.
 
 print('Shape citra 1 : ', citra1.shape)  # Menampilkan dimensi citra 1 dengan menggunakan atribut shape.
 print('Shape citra 2 : ', citra2.shape)  # Menampilkan dimensi citra 2 dengan menggunakan atribut shape.

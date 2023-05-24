@@ -3,7 +3,7 @@ import numpy as np  # Mengimpor modul numpy untuk operasi array dan manipulasi d
 from skimage import data  # Mengimpor modul data dari skimage untuk mendapatkan contoh citra.
 import matplotlib.pyplot as plt  # Mengimpor modul pyplot dari matplotlib untuk visualisasi gambar.
 
-img = cv2.imread("Image/ronaldo.jpeg")  # Mendapatkan contoh citra 'camera' dari modul data di skimage dan menyimpannya dalam variabel img.
+img = cv2.imread("Image/ronaldo.jpeg")  # Mendapatkan contoh citra 'ronaldo' dari modul dara dan menyimpannya dalam variabel img.
 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) #untuk mengubah citra img dari format BGR menjadi grayscale. Hasil konversi disimpan kembali ke variabel img
 
 row, column = img.shape  # Mendapatkan dimensi baris dan kolom citra menggunakan atribut shape dan menyimpannya dalam variabel row dan column.
